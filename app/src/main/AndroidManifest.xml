@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.lifecycletest.lifecycle.MainActivity">
-
-        </activity>
-        <activity android:name=".nestedrecyclerview.ListActivity">
+        <activity android:name=".lifecycle.MainActivity" />
+        <activity android:name=".nestedrecyclerview.ListActivity"/>
+        <activity android:name=".main.CoolStuffActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
