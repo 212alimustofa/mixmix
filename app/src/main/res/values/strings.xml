@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">LifecycleTest</string>
     <string name="title_activity_add_data">AddDataActivity</string>
+    <string name="title_activity_activity">ActivityA</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_b">ActivityB</string>
 </resources>

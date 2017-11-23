@@ -33,4 +33,17 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTransitionExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transition Example"/>
+
+    </LinearLayout>
+
 </LinearLayout>
