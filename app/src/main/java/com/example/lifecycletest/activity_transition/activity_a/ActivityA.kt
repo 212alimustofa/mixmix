@@ -50,7 +50,6 @@ class ActivityA : AppCompatActivity() {
             window.enterTransition = Slide()
         }
         setContentView(R.layout.a_activity)
-
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 }

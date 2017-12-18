@@ -8,6 +8,7 @@ import com.example.lifecycletest.R
 import com.example.lifecycletest.activity_transition.activity_a.ActivityA
 import com.example.lifecycletest.lifecycle.MainActivity
 import com.example.lifecycletest.nestedrecyclerview.ListActivity
+import com.example.lifecycletest.tab.TabActivity
 import kotlinx.android.synthetic.main.activity_cool_stuff.*
 
 class CoolStuffActivity : AppCompatActivity(), View.OnClickListener {
@@ -18,6 +19,7 @@ class CoolStuffActivity : AppCompatActivity(), View.OnClickListener {
         tvLifecycle.setOnClickListener(this)
         tvNestedRecycler.setOnClickListener(this)
         tvTransitionExample.setOnClickListener(this)
+        tvTabExample.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -25,7 +27,12 @@ class CoolStuffActivity : AppCompatActivity(), View.OnClickListener {
             tvLifecycle -> openLifecycleActyvity()
             tvNestedRecycler -> openNestedRecyclerActivity()
             tvTransitionExample -> openTransitionExampleActivity()
+            tvTabExample -> openTabExampleActivity()
         }
+    }
+
+    private fun openTabExampleActivity() {
+        startActivity(Intent(this@CoolStuffActivity, TabActivity::class.java))
     }
 
     private fun openTransitionExampleActivity() {

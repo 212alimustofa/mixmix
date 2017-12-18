@@ -23,7 +23,11 @@
             android:label="@string/title_activity_activity" />
         <activity
             android:name=".activity_transition.activity_b.ActivityB"
-            android:label="@string/title_activity_b"></activity>
+            android:label="@string/title_activity_b" />
+        <activity
+            android:name=".tab.TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
